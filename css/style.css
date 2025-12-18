@@ -1,0 +1,104 @@
+:root {
+  --primary-blue: #1e6fff;
+ 
+}
+
+body {
+  padding: 20px;
+  background-color: #f5f8fc;
+  font-size: medium;
+
+}
+
+/* ===== TABLE ===== */
+table {
+  background-color: #ffffff;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  vertical-align: middle;
+  border: none;
+  padding: 10px;
+}
+
+th {
+  background-color: #99ccff;
+  color: #003366;
+}
+
+/* ===== HEADERS ===== */
+h4 {
+  color: #0059b3;
+  margin-bottom: 15px;
+}
+
+/* ===== FORM ===== */
+.form-check-input:checked {
+  background-color: #3399ff;
+  border-color: #3399ff;
+}
+
+/* ===== CARDS ===== */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.05);
+}
+
+/* ===== QUESTIONS PANEL ===== */
+.ques {
+  background: #cfe8ff;
+  height: 100%;
+}
+
+/* ===== TAB ANIMATION ===== */
+.tab-pane {
+  transform: translateX(30px);
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.tab-pane.active.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* ===== NAV ===== */
+.nav-link.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* ===== LIST ===== */
+.list-group {
+  height: 100%;
+}
+
+/* =====  BASKET ===== */
+.items-panel {
+  position: sticky;
+  top: 20px;
+}
+
+
+.nextBtn,.prevBtn{
+width: 50px;
+}
+
+.door-options {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  white-space: nowrap;
+}
+
+.door-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
+

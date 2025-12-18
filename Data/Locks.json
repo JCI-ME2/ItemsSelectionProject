@@ -1,0 +1,66 @@
+[
+  {
+    "Sw": "ICS-A10001",
+    "StandardMag": 0,
+    "MiniMag": 1,
+    "SingleDoor": 1,
+    "DoubleDoor": 0,
+    "Monitored": 0
+  },
+  {
+    "Sw": "ICS-A10002",
+    "StandardMag": 0,
+    "MiniMag": 1,
+    "SingleDoor": 1,
+    "DoubleDoor": 0,
+    "Monitored": 1
+  },
+  {
+    "Sw": "ICS-A10004",
+    "StandardMag": 0,
+    "MiniMag": 1,
+    "SingleDoor": 0,
+    "DoubleDoor": 1,
+    "Monitored": 0
+  },
+  {
+    "Sw": "ICS-A10005",
+    "StandardMag": 0,
+    "MiniMag": 1,
+    "SingleDoor": 0,
+    "DoubleDoor": 1,
+    "Monitored": 1
+  },
+  {
+    "Sw": "ICS-A10010",
+    "StandardMag": 1,
+    "MiniMag": 0,
+    "SingleDoor": 1,
+    "DoubleDoor": 0,
+    "Monitored": 0
+  },
+  {
+    "Sw": "ICS-A10020",
+    "StandardMag": 1,
+    "MiniMag": 0,
+    "SingleDoor": 1,
+    "DoubleDoor": 0,
+    "Monitored": 1
+  },
+  {
+    "Sw": "ICS-A10060",
+    "StandardMag": 1,
+    "MiniMag": 0,
+    "SingleDoor": 0,
+    "DoubleDoor": 1,
+    "Monitored": 0
+  },
+  {
+    "Sw": "ICS-A10040",
+    "StandardMag": 1,
+    "MiniMag": 0,
+    "SingleDoor": 0,
+    "DoubleDoor": 1,
+    "Monitored": 1
+  }
+]

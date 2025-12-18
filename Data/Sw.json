@@ -1,0 +1,80 @@
+[
+  {
+    "Sw": "E-SPE-V8",
+    "Licbyemail": 0,
+    "Numofcont": 0,
+    "ClientSw": 0,
+    "Ldap": 0,
+    "WebMobile": 0,
+    "AutoEmail": 0,
+    "DBAcess": 0,
+    "InterAction": 0,
+    "GuardTour": 0,
+    "AreaCount": 0
+  },
+  {
+    "Sw": "E-SPE-LIC",
+    "Licbyemail": 1,
+    "Numofcont": 0,
+    "ClientSw": 0,
+    "Ldap": 0,
+    "WebMobile": 0,
+    "AutoEmail": 0,
+    "DBAcess": 0,
+    "InterAction": 0,
+    "GuardTour": 0,
+    "AreaCount": 0
+  },
+  {
+    "Sw": "E-COR-V8",
+    "Licbyemail": 0,
+    "Numofcont": 1,
+    "ClientSw": 1,
+    "Ldap": 1,
+    "WebMobile": 1,
+    "AutoEmail": 1,
+    "DBAcess": 0,
+    "InterAction": 0,
+    "GuardTour": 0,
+    "AreaCount": 0
+  },
+  {
+    "Sw": "E-COR-LIC",
+    "Licbyemail": 1,
+    "Numofcont": 1,
+    "ClientSw": 1,
+    "Ldap": 1,
+    "WebMobile": 1,
+    "AutoEmail": 1,
+    "DBAcess": 0,
+    "InterAction": 0,
+    "GuardTour": 0,
+    "AreaCount": 0
+  },
+  {
+    "Sw": "E-GLO-V8",
+    "Licbyemail": 0,
+    "Numofcont": 1,
+    "ClientSw": 1,
+    "Ldap": 1,
+    "WebMobile": 1,
+    "AutoEmail": 1,
+    "DBAcess": 1,
+    "InterAction": 1,
+    "GuardTour": 1,
+    "AreaCount": 1
+  },
+  {
+    "Sw": "E-GLO-LIC",
+    "Licbyemail": 1,
+    "Numofcont": 1,
+    "ClientSw": 1,
+    "Ldap": 1,
+    "WebMobile": 1,
+    "AutoEmail": 1,
+    "DBAcess": 1,
+    "InterAction": 1,
+    "GuardTour": 1,
+    "AreaCount": 1
+  }
+]

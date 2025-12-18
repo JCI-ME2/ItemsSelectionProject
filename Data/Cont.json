@@ -1,0 +1,75 @@
+[
+  {
+    "Sw": "KT-4-EU",
+    "MetalH": 1,
+    "MetalP": 0,
+    "Pcb": 0,
+    "4Door": 1,
+    "2Door": 0,
+    "1Door": 0
+  },
+  {
+    "Sw": "KT-4-PCB",
+    "MetalH": 0,
+    "MetalP": 0,
+    "Pcb": 1,
+    "4Door": 1,
+    "2Door": 0,
+    "1Door": 0
+  },
+  {
+    "Sw": "KT-2-EU-MET ",
+    "MetalH": 1,
+    "MetalP": 0,
+    "Pcb": 0,
+    "4Door": 0,
+    "2Door": 1,
+    "1Door": 0
+  },
+  {
+    "Sw": "KT-2-CAB-PSU",
+    "MetalH": 0,
+    "MetalP": 1,
+    "Pcb": 0,
+    "4Door": 0,
+    "2Door": 1,
+    "1Door": 0
+  },
+  {
+    "Sw": "KT-2-PCB-EU",
+    "MetalH": 0,
+    "MetalP": 0,
+    "Pcb": 1,
+    "4Door": 0,
+    "2Door": 1,
+    "1Door": 0
+  },
+  {
+    "Sw": "KT-1-EU-PC",
+    "MetalH": 0,
+    "MetalP": 1,
+    "Pcb": 0,
+    "4Door": 0,
+    "2Door": 0,
+    "1Door": 1
+  },
+  
+  {
+    "Sw": "KT-1-EU-MET",
+    "MetalH": 1,
+    "MetalP": 0,
+    "Pcb": 0,
+    "4Door": 0,
+    "2Door": 0,
+    "1Door": 1
+  },
+  {
+    "Sw": "KT-1-PCB",
+    "MetalH": 0,
+    "MetalP": 0,
+    "Pcb": 1,
+    "4Door": 0,
+    "2Door": 0,
+    "1Door": 1
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "Sw": "KT-MUL-SC2",
+    "SingleGang": 0,
+    "Mullion": 1,
+    "SmartCard": 1,
+    "MultiTech": 0,
+    "KeyPad": 0
+  },
+  {
+    "Sw": "KT-MUL-SC-KP2",
+    "SingleGang": 0,
+    "Mullion": 1,
+    "SmartCard": 1,
+    "MultiTech": 0,
+    "KeyPad": 1
+  },
+  {
+    "Sw": "KT-MUL-MT2",
+    "SingleGang": 0,
+    "Mullion": 1,
+    "SmartCard": 0,
+    "MultiTech": 1,
+    "KeyPad": 0
+  },
+  {
+    "Sw": "KT-MUL-MT-KP2",
+    "SingleGang": 0,
+    "Mullion": 1,
+    "SmartCard": 0,
+    "MultiTech": 1,
+    "KeyPad": 1
+  },
+  {
+    "Sw": "KT-SG-SC2",
+    "SingleGang": 1,
+    "Mullion": 0,
+    "SmartCard": 1,
+    "MultiTech": 0,
+    "KeyPad": 0
+  },
+  {
+    "Sw": "KT-SG-SC-KP2",
+    "SingleGang": 1,
+    "Mullion": 0,
+    "SmartCard": 1,
+    "MultiTech": 0,
+    "KeyPad": 1
+  },
+  {
+    "Sw": "KT-SG-MT2",
+    "SingleGang": 1,
+    "Mullion": 0,
+    "SmartCard": 0,
+    "MultiTech": 1,
+    "KeyPad": 0
+  },
+  {
+    "Sw": "KT-SG-MT-KP2",
+    "SingleGang": 1,
+    "Mullion": 0,
+    "SmartCard": 0,
+    "MultiTech": 1,
+    "KeyPad": 1
+  }
+]

@@ -1,0 +1,58 @@
+/* ================= CONTROLLER QUESTIONS ================= */
+const controllerQuestions = [
+  { key:"NumDoors", label:"Number of Doors > 4?" },
+  { key:"Elevator", label:"Elevator Support?" },
+  { key:"AntiPassback", label:"Anti-Passback?" },
+  { key:"Offline", label:"Offline Mode?" }
+];
+
+/* ================= CONTROLLER INIT ================= */
+function initControllerTab(){
+  renderControllerQuestions();
+  renderList("controller", tabState.controller.data);
+}
+
+/* ================= RENDER QUESTIONS ================= */
+function renderControllerQuestions(){
+  const div = document.getElementById("controller-questions");
+  div.innerHTML = "";
+
+  const table = document.createElement("table");
+  table.className = "align-middle";
+  table.innerHTML = `
+    <thead>
+      <tr><th>Yes</th><th>No</th><th>Question</th></tr>
+    </thead>
+  `;
+
+  const tbody = document.createElement("tbody");
+
+  controllerQuestions.forEach(q=>{
+    tbody.innerHTML += `
+      <tr>
+        <td><input type="radio" name="controller-${q.key}" onchange="controllerAnswer('${q.key}',1)"></td>
+        <td><input type="radio" name="controller-${q.key}" onchange="controllerAnswer('${q.key}',0)"></td>
+        <td>${q.label}</td>
+      </tr>`;
+  });
+
+  table.appendChild(tbody);
+  div.appendChild(table);
+}
+
+/* ================= ANSWER ================= */
+function controllerAnswer(key,value){
+  const st = tabState.controller;
+  st.answers[key] = value;
+
+  if(value === 0){
+    delete st.answers[key];
+  }
+
+  let result = [...st.data];
+  Object.keys(st.answers).forEach(k=>{
+    result = result.filter(i=>i[k] == st.answers[k]);
+  });
+
+  renderList("controller", result);
+}
