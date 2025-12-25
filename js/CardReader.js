@@ -1,4 +1,20 @@
 const readerQuestions = [
+   {
+    section: "wigand",
+    title: "Wigand",
+    options: [
+      { key: "Wigand", label: "Yes",value:1 },
+      { key: "Wigand", label: "No",value:0 }
+    ]
+  },
+  {
+    section: "OSDP",
+    title: "OSDP",
+    options: [
+      { key: "OSDP", label: "Yes",value:1 },
+      { key: "OSDP", label: "No",value:0 }
+    ]
+  },
   {
     section: "mount",
     title: "Mounting Type",
@@ -7,6 +23,7 @@ const readerQuestions = [
       { key: "Mullion", label: "Mullion" }
     ]
   },
+  
   {
     section: "tech",
     title: "Technology",
@@ -21,6 +38,14 @@ const readerQuestions = [
     options: [
       { key: "KeyPad", label: "Yes", value: 1 },
       { key: "KeyPad", label: "No", value: 0 }
+    ]
+  },
+  {
+    section: "QR",
+    title: "QR",
+    options: [
+      { key: "QR", label: "Yes", value: 1 },
+      { key: "QR", label: "No", value: 0 }
     ]
   }
 ];
@@ -81,15 +106,29 @@ function readerAnswer(key, value){
 
 function applyReaderFilter(){
   const r = tabState.reader;
-  const required = ["SingleGang","Mullion","SmartCard","MultiTech","KeyPad"];
 
-  if (!required.every(k => k in r.answers)) return;
+  if (
+    !("Wigand" in r.answers) ||
+    !("OSDP" in r.answers) ||
+    !("QR" in r.answers) ||
+    !("KeyPad" in r.answers) ||
+    !("SingleGang" in r.answers || "Mullion" in r.answers) ||
+    !("SmartCard" in r.answers || "MultiTech" in r.answers)
+  ) return;
+  if (!Array.isArray(r.data) || r.data.length === 0) {
+    console.warn("Reader data not loaded yet");
+    return;
+  }
 
   let result = [...r.data];
+
   Object.keys(r.answers).forEach(k => {
-    result = result.filter(i => i[k] === r.answers[k]);
+    if (result.length && typeof result[0] === "object" && k in result[0]) {
+      result = result.filter(i => Number(i[k]) === r.answers[k]);
+    }
   });
 
   renderList("reader", result);
   updateNavButtons();
 }
+

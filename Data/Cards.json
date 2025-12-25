@@ -1,66 +1,178 @@
 [
   {
     "Sw": "KT-MUL-SC2",
-    "SingleGang": 0,
-    "Mullion": 1,
-    "SmartCard": 1,
-    "MultiTech": 0,
-    "KeyPad": 0
+    "Wigand": "1",
+    "OSDP": "1",
+    "SingleGang": "0",
+    "Mullion": "1",
+    "SmartCard": "1",
+    "MultiTech": "0",
+    "KeyPad": "0",
+    "QR": "0"
   },
   {
     "Sw": "KT-MUL-SC-KP2",
-    "SingleGang": 0,
-    "Mullion": 1,
-    "SmartCard": 1,
-    "MultiTech": 0,
-    "KeyPad": 1
+    "Wigand": "1",
+    "OSDP": "1",
+    "SingleGang": "0",
+    "Mullion": "1",
+    "SmartCard": "1",
+    "MultiTech": "0",
+    "KeyPad": "1",
+    "QR": "0"
   },
   {
     "Sw": "KT-MUL-MT2",
-    "SingleGang": 0,
-    "Mullion": 1,
-    "SmartCard": 0,
-    "MultiTech": 1,
-    "KeyPad": 0
+    "Wigand": "1",
+    "OSDP": "1",
+    "SingleGang": "0",
+    "Mullion": "1",
+    "SmartCard": "0",
+    "MultiTech": "1",
+    "KeyPad": "0",
+    "QR": "0"
   },
   {
     "Sw": "KT-MUL-MT-KP2",
-    "SingleGang": 0,
-    "Mullion": 1,
-    "SmartCard": 0,
-    "MultiTech": 1,
-    "KeyPad": 1
+    "Wigand": "1",
+    "OSDP": "1",
+    "SingleGang": "0",
+    "Mullion": "1",
+    "SmartCard": "0",
+    "MultiTech": "1",
+    "KeyPad": "1",
+    "QR": "0"
   },
   {
     "Sw": "KT-SG-SC2",
-    "SingleGang": 1,
-    "Mullion": 0,
-    "SmartCard": 1,
-    "MultiTech": 0,
-    "KeyPad": 0
+    "Wigand": "1",
+    "OSDP": "1",
+    "SingleGang": "1",
+    "Mullion": "0",
+    "SmartCard": "1",
+    "MultiTech": "0",
+    "KeyPad": "0",
+    "QR": "0"
   },
   {
     "Sw": "KT-SG-SC-KP2",
-    "SingleGang": 1,
-    "Mullion": 0,
-    "SmartCard": 1,
-    "MultiTech": 0,
-    "KeyPad": 1
+    "Wigand": "1",
+    "OSDP": "1",
+    "SingleGang": "1",
+    "Mullion": "0",
+    "SmartCard": "1",
+    "MultiTech": "0",
+    "KeyPad": "1",
+    "QR": "0"
   },
   {
     "Sw": "KT-SG-MT2",
-    "SingleGang": 1,
-    "Mullion": 0,
-    "SmartCard": 0,
-    "MultiTech": 1,
-    "KeyPad": 0
+    "Wigand": "1",
+    "OSDP": "1",
+    "SingleGang": "1",
+    "Mullion": "0",
+    "SmartCard": "0",
+    "MultiTech": "1",
+    "KeyPad": "0",
+    "QR": "0"
   },
   {
     "Sw": "KT-SG-MT-KP2",
-    "SingleGang": 1,
-    "Mullion": 0,
-    "SmartCard": 0,
-    "MultiTech": 1,
-    "KeyPad": 1
+    "Wigand": "1",
+    "OSDP": "1",
+    "SingleGang": "1",
+    "Mullion": "0",
+    "SmartCard": "0",
+    "MultiTech": "1",
+    "KeyPad": "1",
+    "QR": "0"
+  },
+  {
+    "Sw": "ARC1SR31BBT1JC11",
+    "Wigand": "1",
+    "OSDP": "0",
+    "SingleGang": "0",
+    "Mullion": "1",
+    "SmartCard": "1",
+    "MultiTech": "0",
+    "KeyPad": "0",
+    "QR": "0"
+  },
+  {
+    "Sw": "ARCSR31ABT1JC11",
+    "Wigand": "1",
+    "OSDP": "0",
+    "SingleGang": "1",
+    "Mullion": "0",
+    "SmartCard": "1",
+    "MultiTech": "0",
+    "KeyPad": "0",
+    "QR": "0"
+  },
+  {
+    "Sw": "ARCSR31BBT1JC11 ",
+    "Wigand": "1",
+    "OSDP": "0",
+    "SingleGang": "1",
+    "Mullion": "0",
+    "SmartCard": "1",
+    "MultiTech": "0",
+    "KeyPad": "1",
+    "QR": "0"
+  },
+  {
+    "Sw": "ARCSR31AQBT1JC11",
+    "Wigand": "1",
+    "OSDP": "0",
+    "SingleGang": "1",
+    "Mullion": "0",
+    "SmartCard": "1",
+    "MultiTech": "0",
+    "KeyPad": "0",
+    "QR": "1"
+  },
+  {
+    "Sw": "ARC1SW33BBT1JC11",
+    "Wigand": "0",
+    "OSDP": "1",
+    "SingleGang": "0",
+    "Mullion": "1",
+    "SmartCard": "1",
+    "MultiTech": "0",
+    "KeyPad": "0",
+    "QR": "0"
+  },
+  {
+    "Sw": "ARCSW33ABT1JC11 ",
+    "Wigand": "0",
+    "OSDP": "1",
+    "SingleGang": "1",
+    "Mullion": "0",
+    "SmartCard": "1",
+    "MultiTech": "0",
+    "KeyPad": "0",
+    "QR": "0"
+  },
+  {
+    "Sw": "ARCSW33BBT1JC11",
+    "Wigand": "0",
+    "OSDP": "1",
+    "SingleGang": "1",
+    "Mullion": "0",
+    "SmartCard": "1",
+    "MultiTech": "0",
+    "KeyPad": "1",
+    "QR": "0"
+  },
+  {
+    "Sw": "ARCSW33AQBT1JC11 ",
+    "Wigand": "0",
+    "OSDP": "1",
+    "SingleGang": "1",
+    "Mullion": "0",
+    "SmartCard": "1",
+    "MultiTech": "0",
+    "KeyPad": "0",
+    "QR": "1"
   }
 ]
