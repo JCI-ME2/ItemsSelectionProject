@@ -119,15 +119,32 @@ function applyReaderFilter(){
     console.warn("Reader data not loaded yet");
     return;
   }
+//filter without wigand and osdp
+   const baseFiltered = r.data.filter(item => {
+    return Object.keys(r.answers).every(k => {
+      if (k === "Wigand" || k === "OSDP") return true;
+      return k in item && Number(item[k]) === r.answers[k];
+    });
+ });
+ //wigand filter 
+ const wigandProducts = baseFiltered.filter(
+    item => Number(item.Wigand) === r.answers.Wigand
+  );
 
-  let result = [...r.data];
+  const osdpProducts = baseFiltered.filter(
+    item=>Number(item.OSDP)===r.answers.OSDP
+  );
 
-  Object.keys(r.answers).forEach(k => {
-    if (result.length && typeof result[0] === "object" && k in result[0]) {
-      result = result.filter(i => Number(i[k]) === r.answers[k]);
-    }
-  });
+  //union 2 result 
 
+  const result =[
+    ...wigandProducts,
+    ...osdpProducts.filter(
+      o=>!wigandProducts.some(w=>w.id===o.id)
+    )
+  ];
+  
+  
   renderList("reader", result);
   updateNavButtons();
 }
