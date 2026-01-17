@@ -122,7 +122,7 @@
 
 
         <!-- ================= LOCKS ================= -->
-    <div class="tab-pane fade" id="tab-2">
+    <div class="tab-pane fade" id="tab-3">
   <div class="row g-4 align-items-stretch">
 
     <div class="col-md-6">
@@ -146,20 +146,41 @@
   </div>
 </div>
 
-        <!-- ================= PTE ================= -->
-        <div class="tab-pane fade" id="tab-4">
-          <div class="card">
-            <div class="card-body">
-              <h4>PTE</h4>
-              <ul id="pte-list" class="list-group list-group-flush"></ul>
-            </div>
-          </div>
-        </div>
+<!-- ================= PTE ================= -->
+<div class="tab-pane fade" id="tab-4">
+  <div class="row g-4 align-items-stretch">
 
+    <!-- QUESTIONS -->
+    <div class="col-md-6">
+      <div class="card h-100">
+        <div class="card-body ques">
+          <h5>PTE / Bio Questions</h5>
+          <div id="bio-questions"></div>
+        </div>
       </div>
     </div>
 
-    <!-- ================= ORDER BASKET ================= -->
+    <!-- LIST -->
+    <div class="col-md-6">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5>PTE / Bio Items</h5>
+          <ul id="bio-list" class="list-group list-group-flush"></ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+    
+
+  </div>
+</div>
+
+<!-- ================= ORDER BASKET ================= -->
     <div class="col-lg-3">
       <div class="card h-100 items-panel">
         <div class="card-body">
@@ -192,9 +213,7 @@
         </div>
       </div>
     </div>
-
   </div>
-</div>
 
 <!-- Scripts -->
 <script src="./js/script.js"></script>
@@ -202,5 +221,7 @@
 <script src="./js/Controller.js"></script>
 <script src="./js/CardReader.js"></script>
 <script src="./js/Locks.js"></script>
+<script src="./js/Biometric.js"></script>
+
 </body>
 </html>
